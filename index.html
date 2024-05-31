@@ -80,7 +80,7 @@
             scene.add(floor);
 
             // Crear el techo con una imagen como textura
-            const ceilingTexture = new THREE.TextureLoader().load('Fotos\\Floor.jpg');
+            const ceilingTexture = new THREE.TextureLoader().load('Fotos\\ceiling.jpg');
             const ceilingMaterial = new THREE.MeshBasicMaterial({ map: ceilingTexture });
             const ceiling = new THREE.Mesh(floorGeometry, ceilingMaterial);
             ceiling.rotation.x = Math.PI / 2;
