@@ -36,7 +36,7 @@
             document.body.appendChild(renderer.domElement);
 
             // Crear las paredes con imágenes como texturas
-            const wallTexture = new THREE.TextureLoader().load('Fotos\\Wall.jpg');
+            const wallTexture = new THREE.TextureLoader().load('Fotos\\wall.jpg');
             const wallMaterial = new THREE.MeshBasicMaterial({ map: wallTexture });
             const wallGeometry = new THREE.PlaneGeometry(10, 5);
 
