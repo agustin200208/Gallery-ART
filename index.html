@@ -79,7 +79,7 @@ floor.position.y = 0;
 scene.add(floor);
 
 // Piso en el techo
-const ceilingTexture = new THREE.TextureLoader().load('Fotos\\Floor.jpg'); // Usando la misma textura por simplicidad
+const ceilingTexture = new THREE.TextureLoader().load('Fotos\\ceiling.jpg'); // Usando la misma textura por simplicidad
 const ceilingMaterial = new THREE.MeshBasicMaterial({ map: ceilingTexture });
 const ceilingGeometry = new THREE.PlaneGeometry(10, 10);
 const ceiling = new THREE.Mesh(ceilingGeometry, ceilingMaterial);
