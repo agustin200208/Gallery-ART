@@ -1,1 +1,1 @@
-Hello there, this is a work in progress Gallery Art where you can see paints, you select the paint that you like ahd the program will show you some information about it, and you also cna bui it through OpenSea as an NFT, here you can see it
+Hello there, this is a work in progress Gallery Art where you can see paints, you select the paint that you like ahd the program will show you some information about it, and you also cna bui it through OpenSea as an NFT, here you can see it https://agustin200208.github.io/Gallery-ART/
